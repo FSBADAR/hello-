@@ -5,12 +5,15 @@ using namespace std;
 
 int main()
 {
-	std::cout << "Hello World! ";
-	std::cout 
-	  << "I'm a C++ program";
-	std::cout << "Hello World! ";
-	std::cout << "Hello World! ";
-std::cout << "Hello World! ";
-	cout << "ok" ;
-	cout << "now what";
+  int a=5;
+  int b(3); //initial value of 3
+  int c{2}; //initial value of 2
+  int result;
+
+  a = a + b;
+  result = a - c;
+  cout << result;
+
+  return 0;
+	
 }
