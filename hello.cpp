@@ -10,7 +10,7 @@ int main()
   int c{2}; //initial value of 2
   int result;
 
-  a = a + b;
+  a = a + b +1;
   result = a - c;
   cout << result;
 
